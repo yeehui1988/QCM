@@ -5,7 +5,7 @@ This repo contains C codes for quantum circuits modelling using (a) the conventi
 The challenging issue in classical modelling of quantum computing systems is related to the exponential increase in resource requirement, which includes both computational and memory resources, with the increase in the number of qubits. This work explores the modelling of quantum circuits based on the Heisenberg representation that allows efficient simulation of stabilizer gates i.e., controlled-NOT gate, Hadamard gate, Phase gate as well as single-qubit measurement in computational basis, which are dominant in practical fault-tolerant quantum circuits. The conventional state-vector-based implementation is developed to serve as the golden reference model.
 
 ## Citation 
-If you find QCM useful, please cite <a href="http://downloads.hindawi.com/journals/ijrc/2016/5718124.pdf" target="_blank">this paper</a>:
+If you find QCM useful, please cite our <a href="https://www.hindawi.com/journals/ijrc/2016/5718124/" target="_blank">state vector paper</a>:
 
     @article{lee2016fpga,
     title={An FPGA-based quantum computing emulation framework based on serial-parallel architecture},
