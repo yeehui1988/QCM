@@ -6,7 +6,7 @@ The challenging issue in classical modelling of quantum computing systems is rel
 
 State vector model is the conventional approach for quantum computing modelling, whereas Heisenberg model is a compact data structure that facilicitates efficient modelling of stabilizer gates that are dominant in practical fault-tolerant quantum circuits. In this work, the quantum circuit modelling is implemented through (i) Software simulation method; and (ii) FPGA emulation method.
 
-Kindly refer to our <a href="https://www.hindawi.com/journals/ijrc/2016/5718124/" target="_blank">state vector emulation paper</a> and <a href="https://protect-au.mimecast.com/s/4mDiCQnzP0tlkyWWuM8Dza?domain=em.rdcu.be" target="_blank">Heisenberg algorithm paper</a> for detailed descriptions of the implemented models and algorithms.
+Kindly refer to our <a href="https://www.hindawi.com/journals/ijrc/2016/5718124/" target="_blank">state vector emulation paper</a>, <a href="https://protect-au.mimecast.com/s/4mDiCQnzP0tlkyWWuM8Dza?domain=em.rdcu.be" target="_blank">Heisenberg algorithm paper</a> and <a href="http://dx.doi.org/10.1142/S0219749918500521" target="_blank">Heisenberg emulaton paper</a> for detailed descriptions of the implemented models and algorithms.
 
 ## Citation 
 If you find QCM useful, please cite our published papers:
@@ -28,6 +28,14 @@ If you find QCM useful, please cite our published papers:
     year={2018},
     publisher={Springer US}
     }
-
-## Note
-The complete Verilog HDL codes for FPGA emulation of quantum circuits will be uploaded soon.
+    
+    @article{lee2018fpga,
+    title={An FPGA-based quantum circuit emulation framework using Heisenberg representation},
+    author={Lee, Yee Hui and Khalil-Hani, Mohamed and Marsono, Muhammad Nadzir},
+    journal={International Journal of Quantum Information},
+    volume={16},
+    number={06},
+    pages={1850052},
+    year={2018},
+    publisher={World Scientific}
+    }
